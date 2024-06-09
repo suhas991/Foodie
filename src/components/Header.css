@@ -1,0 +1,16 @@
+.wrap{
+    display: flex;
+    background-color: #323334;
+    width: auto;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.search input{
+    border: 1px solid red;
+    background-color: #323334;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
