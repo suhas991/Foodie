@@ -14,3 +14,16 @@
     padding: 0.25rem;
     border-radius: 0.25rem;
 }
+@media only screen and (max-width:600px){
+    .wrap{
+        flex-direction: column;
+        height: 8rem;
+        justify-content: center;
+        gap: 0.5rem;
+        
+    }
+    .search input{
+        width: 15rem;
+        height: 1.5rem;
+    }
+}
