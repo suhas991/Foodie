@@ -78,7 +78,7 @@ export const foods = [
     region: 'North',
     description: 'Crispy hollow puris filled with tangy tamarind water and potatoes',
     category: 'starter',
-    imageSrc: '/Foodi/Foodi/pani_puri.jpg',
+    imageSrc: '/Foodi/pani_puri.jpg',
     price: 11
   },
   {
