@@ -18,14 +18,15 @@ button{
 .display{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-    grid-gap: 2px;
+    justify-content: center;
+    grid-gap: 2rem;
     justify-items: center;
     width: 100%;
-    /* background-image: url('../assets/bg_desk.png');
+    background-image: url('../assets/bg_desk.png');
     background-repeat: no-repeat;
-    background-size:cover; */
-    background-color: rgb(98, 25, 25);
+    background-size:cover;
+    background-color:#323334;
+    padding-top: 1rem;
    
 }
 .item-img img{
@@ -42,8 +43,9 @@ button{
     width: 340px;
     height: 167px;
     color: white;
-    padding: 10px;
+    padding: 15px;
     font-family:monospace;
+    margin: 2px;
     
     /* From https://css.glass */
 background: rgba(255, 255, 255, 0.37);  
@@ -82,12 +84,12 @@ border: 1px solid rgba(0, 0, 0, 0.48);
         grid-template-columns: auto;
     }
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1250px){
     .display{
         grid-template-columns: auto auto;
     }
 }
-@media only screen and (max-width:720px){
+@media only screen and (max-width:830px){
     .display{
         grid-template-columns: auto;
     }
