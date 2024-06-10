@@ -18,6 +18,7 @@ button{
 .display{
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
     grid-gap: 2px;
     justify-items: center;
     width: 100%;
@@ -25,6 +26,7 @@ button{
     background-repeat: no-repeat;
     background-size:cover; */
     background-color: rgb(98, 25, 25);
+   
 }
 .item-img img{
     border-radius: 50%;
@@ -34,6 +36,7 @@ button{
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
     border-radius: 0.75rem;
     width: 340px;
@@ -41,6 +44,14 @@ button{
     color: white;
     padding: 10px;
     font-family:monospace;
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.37);  
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.1px);
+-webkit-backdrop-filter: blur(0.7px);
+border: 1px solid rgba(0, 0, 0, 0.48);
 }
 .des{
     display: flex;
@@ -52,6 +63,12 @@ button{
     display: flex;
     gap: 0.5rem;
 }
+.price{
+    background-color: #FF4343;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+
+}
 @media only screen and (max-width:600px){
     .types{
         gap: 0.75rem;
@@ -61,6 +78,16 @@ button{
         padding-left:1rem;
         padding-right: 1rem;
     }
+    .display{
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width:1200px){
+    .display{
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width:720px){
     .display{
         grid-template-columns: auto;
     }

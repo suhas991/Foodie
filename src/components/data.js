@@ -5,7 +5,7 @@ export const foods = [
     region: 'South',
     description: 'Steamed rice cakes served with chutney and sambar',
     category: 'breakfast',
-    imageSrc: '../assets/idli.jpg'
+    imageSrc: '../asssets/idli.jpg'
   },
   {
     id: 2,
