@@ -1,0 +1,28 @@
+.types{
+    display: flex;
+    background-color: #323334;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+button{
+    background-color: #FF4343;
+    border-radius: 0.25rem;
+    border: 0px transparent;
+    padding:0.5rem;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:600px){
+    .types{
+        gap: 0.75rem;
+        padding-bottom: 1rem;
+    }
+    button{
+        padding-left:1rem;
+        padding-right: 1rem;
+    }
+}
