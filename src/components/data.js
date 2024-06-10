@@ -6,7 +6,7 @@ export const foods = [
     region: 'South',
     description: 'Steamed rice cakes served with chutney and sambar',
     category: 'breakfast',
-    imageSrc: '/idli.jpg',
+    imageSrc: '/Foodi/idli.jpg',
     price: 15
   },
   {
@@ -15,7 +15,7 @@ export const foods = [
     region: 'South',
     description: 'Crispy fermented crepe made from rice batter and black lentils',
     category: 'breakfast',
-    imageSrc:'/dosa.jpg',
+    imageSrc:'/Foodi/dosa.jpg',
     price: 18
   },
   {
@@ -24,7 +24,7 @@ export const foods = [
     region: 'North',
     description: 'Fragrant spiced rice dish with vegetables',
     category: 'lunch',
-    imageSrc:'/biryani.jpg',
+    imageSrc:'/Foodi/biryani.jpg',
     price: 20
   },
   {
@@ -33,7 +33,7 @@ export const foods = [
     region: 'North',
     description: 'Creamy tomato-based curry with cottage cheese',
     category: 'dinner',
-    imageSrc: '/paneer_butter_masala.jpg',
+    imageSrc: '/Foodi/paneer_butter_masala.jpg',
     price: 19
   },
   {
@@ -42,7 +42,7 @@ export const foods = [
     region: 'North',
     description: 'Fried pastry filled with spiced potatoes and peas',
     category: 'starter',
-    imageSrc:'/samosa.jpg',
+    imageSrc:'/Foodi/samosa.jpg',
     price: 10
   },
   {
@@ -51,7 +51,7 @@ export const foods = [
     region: 'West',
     description: 'Spicy potato fritter in a bread bun served with chutneys',
     category: 'starter',
-    imageSrc: '/vada_pav.jpg',
+    imageSrc: '/Foodi/vada_pav.jpg',
     price: 12
   },
   {
@@ -60,7 +60,7 @@ export const foods = [
     region: 'South',
     description: 'Savory rice and lentil dish flavored with ghee and pepper',
     category: 'breakfast',
-    imageSrc: '/pongal.jpg',
+    imageSrc: '/Foodi/pongal.jpg',
     price: 14
   },
   {
@@ -69,7 +69,7 @@ export const foods = [
     region: 'North',
     description: 'Cottage cheese in a creamy spinach gravy',
     category: 'dinner',
-    imageSrc: '/palak_paneer.jpg',
+    imageSrc: '/Foodi/palak_paneer.jpg',
     price: 20
   },
   {
@@ -78,7 +78,7 @@ export const foods = [
     region: 'North',
     description: 'Crispy hollow puris filled with tangy tamarind water and potatoes',
     category: 'starter',
-    imageSrc: '/pani_puri.jpg',
+    imageSrc: '/Foodi/Foodi/pani_puri.jpg',
     price: 11
   },
   {
@@ -87,7 +87,7 @@ export const foods = [
     region: 'South',
     description: 'Dosa stuffed with spiced potatoes served with chutney and sambar',
     category: 'breakfast',
-    imageSrc: '/masala_dosa.jpg',
+    imageSrc: '/Foodi/masala_dosa.jpg',
     price: 17
   },
   {
@@ -96,7 +96,7 @@ export const foods = [
     region: 'North',
     description: 'Spicy chickpea curry served with deep-fried bread',
     category: 'lunch',
-    imageSrc: '/chole_bhature.jpg',
+    imageSrc: '/Foodi/chole_bhature.jpg',
     price: 20
   },
   {
@@ -105,7 +105,7 @@ export const foods = [
     region: 'South',
     description: 'Crispy savory donuts made from lentils served with sambar and chutney',
     category: 'breakfast',
-    imageSrc: '/medu_vada.jpg',
+    imageSrc: '/Foodi/medu_vada.jpg',
     price: 13
   },
   {
@@ -114,7 +114,7 @@ export const foods = [
     region: 'North',
     description: 'Stir-fried potatoes and cauliflower with spices',
     category: 'lunch',
-    imageSrc: '/aloo_gobi.jpg',
+    imageSrc: ' /Foodi/aloo_gobi.jpg',
     price: 16
   },
   {
@@ -123,7 +123,7 @@ export const foods = [
     region: 'West',
     description: 'Spicy mashed vegetable curry served with buttered bread rolls',
     category: 'lunch',
-    imageSrc: '/pav_bhaji.png',
+    imageSrc: '/Foodi/pav_bhaji.png',
     price: 18
   },
   {
@@ -132,9 +132,9 @@ export const foods = [
     region: 'South',
     description: 'Savory porridge made from semolina and vegetables',
     category: 'breakfast',
-    imageSrc: '/upma.png',
+    imageSrc: '/Foodi/upma.png',
     price: 15
-  },
+  }
   // {
   //   id: 16,
   //   name: 'Hyderabadi Biryani',
