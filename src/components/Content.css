@@ -22,11 +22,14 @@ button{
     grid-gap: 2rem;
     justify-items: center;
     width: 100%;
-    background-image: url('../assets/bg_desk.png');
+    background-image: url(/src/assets/bg_desk.png);
     background-repeat: no-repeat;
-    background-size:cover;
-    background-color:#323334;
+    background-size: cover;
+    background-color: #323334;
     padding-top: 1rem;
+    min-height: 77vh;
+    align-items: center;
+    align-content: center;
    
 }
 .item-img img{

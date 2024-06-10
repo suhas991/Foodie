@@ -44,97 +44,97 @@ export const foods = [
     category: 'starter',
     imageSrc:'/samosa.jpg',
     price: 10
-  }
-  // {
-  //   id: 6,
-  //   name: 'Vada Pav',
-  //   region: 'West',
-  //   description: 'Spicy potato fritter in a bread bun served with chutneys',
-  //   category: 'starter',
-  //   imageSrc: '../assets/vada_pav.jpg',
-  //   price: 12
-  // },
-  // {
-  //   id: 7,
-  //   name: 'Pongal',
-  //   region: 'South',
-  //   description: 'Savory rice and lentil dish flavored with ghee and pepper',
-  //   category: 'breakfast',
-  //   imageSrc: '../assets/pongal.jpg',
-  //   price: 14
-  // },
-  // {
-  //   id: 8,
-  //   name: 'Palak Paneer',
-  //   region: 'North',
-  //   description: 'Cottage cheese in a creamy spinach gravy',
-  //   category: 'dinner',
-  //   imageSrc: '../assets/palak_paneer.jpg',
-  //   price: 20
-  // },
-  // {
-  //   id: 9,
-  //   name: 'Pani Puri',
-  //   region: 'North',
-  //   description: 'Crispy hollow puris filled with tangy tamarind water and potatoes',
-  //   category: 'starter',
-  //   imageSrc: '../assets/pani_puri.jpg',
-  //   price: 11
-  // },
-  // {
-  //   id: 10,
-  //   name: 'Masala Dosa',
-  //   region: 'South',
-  //   description: 'Dosa stuffed with spiced potatoes served with chutney and sambar',
-  //   category: 'breakfast',
-  //   imageSrc: '../assets/masala_dosa.jpg',
-  //   price: 17
-  // },
-  // {
-  //   id: 11,
-  //   name: 'Chole Bhature',
-  //   region: 'North',
-  //   description: 'Spicy chickpea curry served with deep-fried bread',
-  //   category: 'lunch',
-  //   imageSrc: '../assets/chole_bhature.jpg',
-  //   price: 20
-  // },
-  // {
-  //   id: 12,
-  //   name: 'Medu Vada',
-  //   region: 'South',
-  //   description: 'Crispy savory donuts made from lentils served with sambar and chutney',
-  //   category: 'breakfast',
-  //   imageSrc: '../assets/medu_vada.jpg',
-  //   price: 13
-  // },
-  // {
-  //   id: 13,
-  //   name: 'Aloo Gobi',
-  //   region: 'North',
-  //   description: 'Stir-fried potatoes and cauliflower with spices',
-  //   category: 'lunch',
-  //   imageSrc: '../assets/aloo_gobi.jpg',
-  //   price: 16
-  // },
-  // {
-  //   id: 14,
-  //   name: 'Pav Bhaji',
-  //   region: 'West',
-  //   description: 'Spicy mashed vegetable curry served with buttered bread rolls',
-  //   category: 'lunch',
-  //   imageSrc: '../assets/pav_bhaji.jpg',
-  //   price: 18
-  // },
-  // {
-  //   id: 15,
-  //   name: 'Upma',
-  //   region: 'South',
-  //   description: 'Savory porridge made from semolina and vegetables',
-  //   category: 'breakfast',
-  //   imageSrc: '../assets/upma.jpg',
-  //   price: 15
-  // },
+  },
+  {
+    id: 6,
+    name: 'Vada Pav',
+    region: 'West',
+    description: 'Spicy potato fritter in a bread bun served with chutneys',
+    category: 'starter',
+    imageSrc: '/vada_pav.jpg',
+    price: 12
+  },
+  {
+    id: 7,
+    name: 'Pongal',
+    region: 'South',
+    description: 'Savory rice and lentil dish flavored with ghee and pepper',
+    category: 'breakfast',
+    imageSrc: '/pongal.jpg',
+    price: 14
+  },
+  {
+    id: 8,
+    name: 'Palak Paneer',
+    region: 'North',
+    description: 'Cottage cheese in a creamy spinach gravy',
+    category: 'dinner',
+    imageSrc: '/palak_paneer.jpg',
+    price: 20
+  },
+  {
+    id: 9,
+    name: 'Pani Puri',
+    region: 'North',
+    description: 'Crispy hollow puris filled with tangy tamarind water and potatoes',
+    category: 'starter',
+    imageSrc: '/pani_puri.jpg',
+    price: 11
+  },
+  {
+    id: 10,
+    name: 'Masala Dosa',
+    region: 'South',
+    description: 'Dosa stuffed with spiced potatoes served with chutney and sambar',
+    category: 'breakfast',
+    imageSrc: '/masala_dosa.jpg',
+    price: 17
+  },
+  {
+    id: 11,
+    name: 'Chole Bhature',
+    region: 'North',
+    description: 'Spicy chickpea curry served with deep-fried bread',
+    category: 'lunch',
+    imageSrc: '/chole_bhature.jpg',
+    price: 20
+  },
+  {
+    id: 12,
+    name: 'Medu Vada',
+    region: 'South',
+    description: 'Crispy savory donuts made from lentils served with sambar and chutney',
+    category: 'breakfast',
+    imageSrc: '/medu_vada.jpg',
+    price: 13
+  },
+  {
+    id: 13,
+    name: 'Aloo Gobi',
+    region: 'North',
+    description: 'Stir-fried potatoes and cauliflower with spices',
+    category: 'lunch',
+    imageSrc: '/aloo_gobi.jpg',
+    price: 16
+  },
+  {
+    id: 14,
+    name: 'Pav Bhaji',
+    region: 'West',
+    description: 'Spicy mashed vegetable curry served with buttered bread rolls',
+    category: 'lunch',
+    imageSrc: '/pav_bhaji.png',
+    price: 18
+  },
+  {
+    id: 15,
+    name: 'Upma',
+    region: 'South',
+    description: 'Savory porridge made from semolina and vegetables',
+    category: 'breakfast',
+    imageSrc: '/upma.png',
+    price: 15
+  },
   // {
   //   id: 16,
   //   name: 'Hyderabadi Biryani',
