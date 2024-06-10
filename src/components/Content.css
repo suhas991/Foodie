@@ -15,7 +15,43 @@ button{
     padding:0.5rem;
     color: aliceblue;
 }
-
+.display{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    justify-items: center;
+    width: 100%;
+    /* background-image: url('../assets/bg_desk.png');
+    background-repeat: no-repeat;
+    background-size:cover; */
+    background-color: rgb(98, 25, 25);
+}
+.item-img img{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 0.75rem;
+    width: 340px;
+    height: 167px;
+    color: white;
+    padding: 10px;
+    font-family:monospace;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.profile{
+    display: flex;
+    gap: 0.5rem;
+}
 @media only screen and (max-width:600px){
     .types{
         gap: 0.75rem;
@@ -24,5 +60,8 @@ button{
     button{
         padding-left:1rem;
         padding-right: 1rem;
+    }
+    .display{
+        grid-template-columns: auto;
     }
 }
