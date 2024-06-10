@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/suhas991/Tic_Tac_Toe.git
+   git clone https://github.com/suhas991/Foodie.git
    ```
 
 2. Install any required dependencies (if applicable):
